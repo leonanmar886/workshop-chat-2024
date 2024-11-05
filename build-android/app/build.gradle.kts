@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.workshop.chat"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.workshop.chat"
         minSdk = 23
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -53,7 +53,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
     implementation("androidx.media:media:1.7.0")
-    implementation("androidx.core:core-ktx:1.15.0")
+    implementation("androidx.core:core-ktx:1.10.0")
 
     // Google
     implementation("com.google.android.gms:play-services-auth:20.7.0")
