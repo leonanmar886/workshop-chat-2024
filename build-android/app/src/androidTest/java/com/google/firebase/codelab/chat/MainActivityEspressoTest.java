@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.codelab.friendlychat;
-
+package com.workshop.chat;
 
 import androidx.test.filters.LargeTest;
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;

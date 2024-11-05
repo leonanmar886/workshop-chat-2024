@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.google.firebase.codelab.friendlychat"
+    namespace = "com.workshop.chat"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.google.firebase.codelab.friendlychat"
+        applicationId = "com.workshop.chat"
         minSdk = 23
         targetSdk = 35
         versionCode = 1
@@ -56,7 +56,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
 
     // Google
-    implementation("com.google.android.gms:play-services-auth:21.2.0")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
 
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
